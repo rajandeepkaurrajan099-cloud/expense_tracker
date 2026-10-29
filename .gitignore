@@ -1,0 +1,33 @@
+# Local expense records and SQLite databases may contain personal information.
+expenses.json
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.db-wal
+*.db-shm
+*.csv
+*.corrupt
+*.tmp
+
+# Generated reports, exports, and build/cache files.
+output/
+tmp/
+*.pdf
+*.docx
+*.log
+
+# Python and editor files.
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.env
+.vscode/
+.idea/
+
+# OS files and an unrelated nested Git folder in the working directory.
+Thumbs.db
+.DS_Store
+expense tracker/
